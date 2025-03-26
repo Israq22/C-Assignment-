@@ -1,0 +1,9 @@
+#include <stdio.h>
+ 
+int main() {
+char name;
+double A,B;
+scanf("%s\n%lf\n%lf\n",name,&A,&B);
+printf("TOTAL = R$ %.2lf\n",A+(B*0.15));
+return 0;
+}
