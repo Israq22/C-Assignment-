@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main() {
+int main A,B;
+scanf("%d\n%d\n", &A,&B);
+printf("X = %d\n",A+B);
+return 0;
+}
