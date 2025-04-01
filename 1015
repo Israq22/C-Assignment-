@@ -1,0 +1,8 @@
+#include <stdio.h>
+ 
+int main() {
+ double x,y,z,o;
+ scanf("%lf%lf\n%lf%lf",&x,&y,&z,&o);
+ printf("%.4lf\n",sqrt(pow(z-x,2)+pow(o-y,2)));
+ return 0;
+}
